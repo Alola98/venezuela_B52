@@ -1,0 +1,9 @@
+body {
+  background-image: url(infografica.jpg);
+  background-repeat: no-repeat; <!-- immagine così è una e non si ripete -->
+}
+
+div{
+  font-size: 60px;
+  float: left;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> What's happening in Venezuela </title>
+</head>
+
+<body>
+
+<!--<div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"> Posizione</span>
+</div>
+<div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"> Partecipazione</span>
+</div> -->
+
+<input type="submit" value="Posizione" id="maschera" class="maschera">
+
+  <img src="infografica.jpg" style="width:100%">
+  <img src="maschera.jpg" id="maschera" class="maschera" style="width:100%">
+
+  <script>
+  let maschera = document.getElementById('maschera');
+
+  function openNav() {
+  document.getElementById("maschera").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("maschera").style.height = "0%";
+}
+
+maschera.addEventListener('click', openNav);
+maschera.addEventListener('click', closeNav);
+
+</script>
+
+</body>
+
+</html>
